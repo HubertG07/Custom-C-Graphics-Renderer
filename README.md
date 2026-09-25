@@ -79,8 +79,10 @@ To keep the main branch stable and to ensure smooth collaboration, these rules w
 ### Technical Breakdown & Architecture
 
 ### Stage 1: Base Framework & Window Context
-* **Objective:** Establish a CMake build pipeline, GLFW Window management
-* **Technical Overview:** TBF
+* **Objective:** Establish a CMake build pipeline, GLFW Window management and initialize an OpenGL context to render the first colored mesh.
+* **Technical Overview:**
+    * **Shader Pipeline:** Create a lightweight `Shader` class to read, compile and link vertex and fragment GLSL shaders at runtime with a built-in error checker.
+    * **Geometry & Buffers:** Build a vertex buffer ($XYZ$ positions + $RGB$ colors) passed into GPU memory via a Vertex Buffer Object (VBO), configured vertex attributes within a Vertex Array Object (VAO) and rendered a triangle using an Element Buffer Object (EBO) with `glDrawElements()`.
 ---
 
 ## Challenges & Optimization Hurdles
@@ -91,7 +93,7 @@ To keep the main branch stable and to ensure smooth collaboration, these rules w
 ---
 
 ## Takeaways & Key Learnings
-1. **TBD:** Not enough of the project is done
+1. **VAO State Rendering:** A Vertex Array Object automatically captures buffer bindings and attribute pointers when active, allowing rendering of complex geometry in the loop with a single `glBindVertexArray()` call/
 ---
 
 ## How to Build & Run
