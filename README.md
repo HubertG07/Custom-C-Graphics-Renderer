@@ -55,12 +55,12 @@ To keep the main branch stable and to ensure smooth collaboration, these rules w
 ### Hubert Time Track
 | Date | Time Window | Session Duration | Focus Area |
 | --- | --- | --- | --- |
-| **25 Sept 2026** | 11:15-TBD | TBD | Inital Setup & Initial Rendering |
+| **25 Sept 2026** | 11:15-13:00 | 1 hr 45 mins | Inital Setup & Initial Rendering & Basic triangle Rendering |
 | **Future Updates** | TBD | TBD | TBD |
 
 * **Project Start Date:** 25 Sept 2026
 * **Project Finish Date:** In Progress
-* **Hubert Total Time:** 0 hrs 0 mins
+* **Hubert Total Time:** 1 hrs 45 mins
 ---
 
 ### Josh Time Track
@@ -72,7 +72,7 @@ To keep the main branch stable and to ensure smooth collaboration, these rules w
 * **Josh Total Time:** 0 hrs 0 mins
 ---
 
-* **Combind Project Hours:** 0 hrs 0 mins (Ongoing)
+* **Combind Project Hours:** 1 hrs 45 mins (Ongoing)
 
 ---
 
